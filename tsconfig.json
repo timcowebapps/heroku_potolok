@@ -1,0 +1,36 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es5",
+		"noImplicitAny": false,
+		"removeComments": true,
+		"sourceMap": true,
+		"jsx": "react",
+		"skipLibCheck": true,
+		"skipDefaultLibCheck": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"allowJs": true,
+		"lib": [
+			"es2015",
+			"dom"
+		],
+		"types": [
+			"node",
+			"react",
+			"react-redux",
+			"react-router-dom"
+		]
+	},
+	"files": [
+		"./src/client/index.tsx",
+		"./src/server/index.tsx"
+	],
+	"include": [
+		"./src/**/*"
+	],
+	"exclude": [
+		"node_modules",
+        "wwwroot"
+	]
+}
