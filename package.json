@@ -17,6 +17,7 @@
 		"redux"
 	],
 	"scripts": {
+		"start": "NODE_ENV=production node ./bin/bundler/prod.js && npm run server",
 		"clean": "node ./bin/clean.js",
 		"server": "node ./bin/server",
 		"build": "npm run clean && node ./bin/bundler/prod.js",
